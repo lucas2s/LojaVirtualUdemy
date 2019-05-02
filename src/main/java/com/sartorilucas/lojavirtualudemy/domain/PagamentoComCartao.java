@@ -1,7 +1,10 @@
 package com.sartorilucas.lojavirtualudemy.domain;
 
+import javax.persistence.Entity;
+
 import com.sartorilucas.lojavirtualudemy.domain.enuns.EstadoPagamento;
 
+@Entity
 public class PagamentoComCartao extends Pagamento {
 	
 	private static final long serialVersionUID = 1L;
