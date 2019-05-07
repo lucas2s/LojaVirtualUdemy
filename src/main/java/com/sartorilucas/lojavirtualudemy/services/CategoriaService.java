@@ -11,7 +11,6 @@ import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
 import com.sartorilucas.lojavirtualudemy.domain.Categoria;
-import com.sartorilucas.lojavirtualudemy.domain.Cliente;
 import com.sartorilucas.lojavirtualudemy.dto.CategoriaDTO;
 import com.sartorilucas.lojavirtualudemy.repositories.CategoriaRepository;
 import com.sartorilucas.lojavirtualudemy.services.excepitions.DataIntegrityExcepition;
